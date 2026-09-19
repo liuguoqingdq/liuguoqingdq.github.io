@@ -117,16 +117,11 @@
       height: 185px;
       margin: 0 auto 22px;
       border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background:
-        linear-gradient(135deg, #e8eeff, #f7f9ff);
+      object-fit: cover;
+      object-position: center;
+      display: block;
       border: 1px solid #dfe5f4;
-      font-size: 54px;
-      font-weight: 700;
-      color: #425ea8;
-      letter-spacing: -2px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     }
 
     .profile h1 {
@@ -326,12 +321,13 @@
 
     <div class="hero">
 
-      <!-- Left profile column -->
       <aside class="profile">
 
-        <div class="avatar">
-          GL
-        </div>
+        <img
+          class="avatar"
+          src="avatar.jpg"
+          alt="Guoqing Liu"
+        />
 
         <h1>Guoqing Liu</h1>
 
@@ -351,33 +347,10 @@
               18246154169@163.com
             </a>
           </div>
-
-          <!--
-          以后有 GitHub / Google Scholar / CV 后可以打开：
-
-          <div>
-            <a href="https://github.com/YOUR_USERNAME" target="_blank">
-              GitHub
-            </a>
-          </div>
-
-          <div>
-            <a href="YOUR_GOOGLE_SCHOLAR_URL" target="_blank">
-              Google Scholar
-            </a>
-          </div>
-
-          <div>
-            <a href="cv.pdf" target="_blank">
-              CV
-            </a>
-          </div>
-          -->
         </div>
 
       </aside>
 
-      <!-- Main content -->
       <div class="content">
 
         <section id="about">
@@ -390,12 +363,15 @@
 
           <p>
             I am an M.S. student at the
-            <span class="highlight">School of Cyberspace Security,
-            Guangzhou University</span>.
+            <span class="highlight">
+              School of Cyberspace Security, Guangzhou University
+            </span>.
             I am also a
-            <span class="highlight">Research Assistant at
-            Harbin Institute of Technology, Shenzhen (HITSZ)</span>,
-            mentored by <span class="highlight">Siqi Cai</span>.
+            <span class="highlight">
+              Research Assistant at Harbin Institute of Technology, Shenzhen (HITSZ)
+            </span>,
+            mentored by
+            <span class="highlight">Siqi Cai</span>.
           </p>
 
           <p>
@@ -411,7 +387,6 @@
           </p>
 
         </section>
-
 
         <section class="section" id="research">
 
@@ -455,7 +430,6 @@
 
         </section>
 
-
         <section class="section" id="news">
 
           <h2 class="section-title">News</h2>
@@ -481,7 +455,6 @@
 
         </section>
 
-
         <section class="section" id="publications">
 
           <h2 class="section-title">Publications</h2>
@@ -491,7 +464,6 @@
           </div>
 
         </section>
-
 
         <section class="section" id="contact">
 
