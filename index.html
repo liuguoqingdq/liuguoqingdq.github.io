@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Guoqing Liu - M.S. Student at Guangzhou University and Research Assistant at Harbin Institute of Technology, Shenzhen."
+    content="Guoqing Liu - M.S. Student at Guangzhou University, Research Assistant at Harbin Institute of Technology, Shenzhen, and Engineer & Senior Partner at Guangzhou Baishida Network Technology Co., Ltd."
   />
 
   <style>
@@ -102,7 +102,7 @@
 
     .hero {
       display: grid;
-      grid-template-columns: 270px 1fr;
+      grid-template-columns: 285px 1fr;
       gap: 64px;
       align-items: start;
     }
@@ -135,20 +135,29 @@
     .profile-role {
       margin-top: 10px;
       color: var(--muted);
-      font-size: 15px;
-      line-height: 1.6;
+      font-size: 14px;
+      line-height: 1.65;
     }
 
     .profile-meta {
       margin-top: 22px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
-      font-size: 14px;
+      gap: 9px;
+      font-size: 13px;
     }
 
     .profile-meta a {
       word-break: break-word;
+    }
+
+    .email-label {
+      display: block;
+      color: #8a919c;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1px;
     }
 
     .content {
@@ -224,7 +233,7 @@
     .timeline {
       display: flex;
       flex-direction: column;
-      gap: 22px;
+      gap: 24px;
     }
 
     .timeline-item {
@@ -367,8 +376,21 @@
       border: 1px solid var(--line);
     }
 
-    .contact-box p {
-      margin: 0;
+    .contact-row {
+      margin-bottom: 12px;
+    }
+
+    .contact-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-row strong {
+      display: inline-block;
+      min-width: 155px;
+      font-size: 14px;
+    }
+
+    .contact-row a {
       font-size: 15px;
     }
 
@@ -424,6 +446,12 @@
       .nav-links {
         display: none;
       }
+
+      .contact-row strong {
+        display: block;
+        min-width: auto;
+        margin-bottom: 2px;
+      }
     }
   </style>
 </head>
@@ -466,7 +494,8 @@
 
         <div class="profile-role">
           M.S. Student · Guangzhou University<br />
-          Research Assistant · HITSZ
+          Research Assistant · HITSZ<br />
+          Engineer & Senior Partner · Baishida
         </div>
 
         <div class="profile-meta">
@@ -477,8 +506,23 @@
           </div>
 
           <div>
+            <span class="email-label">Personal</span>
             <a href="mailto:18246154169@163.com">
               18246154169@163.com
+            </a>
+          </div>
+
+          <div>
+            <span class="email-label">Guangzhou University</span>
+            <a href="mailto:2112533059@e.gzhu.edu.cn">
+              2112533059@e.gzhu.edu.cn
+            </a>
+          </div>
+
+          <div>
+            <span class="email-label">Baishida</span>
+            <a href="mailto:liuguoqing@baishijob.cn">
+              liuguoqing@baishijob.cn
             </a>
           </div>
 
@@ -508,6 +552,17 @@
             </span>,
             mentored by
             <span class="highlight">Siqi Cai</span>.
+          </p>
+
+          <p>
+            In parallel with my academic research, I work as an
+            <span class="highlight">
+              Engineer and Senior Partner at Guangzhou Baishida Network
+              Technology Co., Ltd.
+            </span>,
+            where I am involved in the engineering and development of
+            AI-enabled recruitment systems and related intelligent
+            infrastructure.
           </p>
 
           <p>
@@ -592,7 +647,7 @@
         <section class="section" id="experience">
 
           <h2 class="section-title">
-            Research Experience
+            Research & Professional Experience
           </h2>
 
           <div class="timeline">
@@ -618,6 +673,33 @@
                   speculative decoding, and high-performance AI serving
                   systems. Current work focuses on improving decoding
                   throughput, memory efficiency, and GPU execution efficiency.
+                </p>
+
+              </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+              <div class="timeline-date">
+                2026 – Present
+              </div>
+
+              <div class="timeline-content">
+
+                <h3>
+                  Engineer & Senior Partner
+                </h3>
+
+                <div class="org">
+                  Guangzhou Baishida Network Technology Co., Ltd.
+                </div>
+
+                <p>
+                  Working on AI systems and engineering for intelligent
+                  recruitment platforms, including large language model
+                  applications, retrieval and recommendation systems,
+                  backend infrastructure, and high-performance AI services.
                 </p>
 
               </div>
@@ -784,6 +866,19 @@
             <div class="news-item">
 
               <div class="news-date">
+                2026
+              </div>
+
+              <div class="news-text">
+                Joined Guangzhou Baishida Network Technology Co., Ltd.
+                as an Engineer and Senior Partner.
+              </div>
+
+            </div>
+
+            <div class="news-item">
+
+              <div class="news-date">
                 2025
               </div>
 
@@ -817,12 +912,26 @@
 
           <div class="contact-box">
 
-            <p>
-              Email:
+            <div class="contact-row">
+              <strong>Personal Email</strong>
               <a href="mailto:18246154169@163.com">
                 18246154169@163.com
               </a>
-            </p>
+            </div>
+
+            <div class="contact-row">
+              <strong>Guangzhou University</strong>
+              <a href="mailto:2112533059@e.gzhu.edu.cn">
+                2112533059@e.gzhu.edu.cn
+              </a>
+            </div>
+
+            <div class="contact-row">
+              <strong>Baishida</strong>
+              <a href="mailto:liuguoqing@baishijob.cn">
+                liuguoqing@baishijob.cn
+              </a>
+            </div>
 
           </div>
 
